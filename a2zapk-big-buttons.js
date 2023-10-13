@@ -21,8 +21,10 @@ img2.height = 150;
 img2.width = 150;
 img2.src = "https://cdn-icons-png.flaticon.com/512/189/189254.png";
 
-var next = document.getElementsByClassName("PagesPar")[0].children[0].lastElementChild.lastChild
+var next = document.getElementsByClassName("PagesPar")[0].children[0].lastChild.lastChild
+next.innerText = "";
 next.appendChild(img1);
 var prev = document.getElementsByClassName("PagesPar")[0].children[0].firstChild.firstChild
+prev.innerText = "";    
 prev.appendChild(img2);
 })();
